@@ -1,1 +1,1 @@
-# Telegram-bott
+# bot.py
