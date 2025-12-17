@@ -1,0 +1,9 @@
+services:
+  - typ: worker
+    name: telegram-bot
+    env: python
+    plan:free
+    puildCommand: "pip install -r reqirements.txt"
+    startCommand: "python bot.py"
+    runtime: python-3.10.7
+    
